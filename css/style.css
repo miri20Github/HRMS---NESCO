@@ -1,0 +1,1106 @@
+*{
+	padding: 0;
+	margin: 0;
+	outline: 0;
+}
+
+body{
+	font-size: 15px;
+	font-family: Arial, "Trebuchet MS", sans-serif;
+	color: #565656;
+	background: #fff;
+	left bottom: repeat-x;
+	/*background: url(../images/bg.jpg)no-repeat center center fixed;*/
+	/*border: 1px solid red;*/
+	/*height: 2000px;*/
+}
+
+#index_bg img{
+	position: absolute;
+	margin-left: 300px;
+	margin-top: 240px;
+	width: 750px;
+	/*border: 1px solid green;*/
+}
+
+a{
+	color: #404842;
+	text-decoration: underline;
+}
+
+a:hover{
+	color: #959795;
+}
+
+#header{
+	background: url(../images/header.jpg) left top repeat-x;
+	height: 50px;
+	/*border: 1px solid blue;*/
+}
+
+#header .h1{
+	margin-left: 10px;
+	width: 990px;
+	/*background: url(../images/nav-separator.jpg) right 1px no-repeat;*/
+	height: 50px;
+	/*border: 1px dashed red;*/
+}
+
+#header .h1 td{
+	/*border-right: 1px solid gray;
+	padding-right: -5px;*/
+	margin-bottom: 20px;
+	/*background: url(../images/nav-separator.jpg) right 1px no-repeat;*/
+	/*border: 1px solid gold;*/
+}
+
+#header .search{
+	float: right;
+	margin-right: 40px;
+	margin-top: 15px;
+	background-color: #fff;
+	/*border: 1px solid green;*/
+}
+
+.search .b-search{
+	height: 20px;
+	width: 20px;
+	border: 1px;
+	background-image: url(../images/search1.png);
+	position: relative;
+	/*border: 1px dashed red;*/
+}
+
+.search .in-search{
+	border: 1px;
+	float: right;
+	margin-left: 0px;
+	height: 20px;
+	padding-left: 2px;
+	padding-right: 2px;
+	padding-top: 2px;
+	/*border: 1px dashed blue;*/
+}
+
+#header .h1 td:hover{
+	background: url(../images/hover.gif);
+}
+
+#header a{
+	float: left;
+	color: #b1b5b2;
+	text-decoration: none;
+	/*margin-top: 5px;
+	/*padding-right: 2px;*/
+	margin-left: 20px;
+	margin-right: 10px;
+	font-size: 18px;
+	font-weight: bold;
+	/*border: 1px dashed green;*/
+}
+
+#header a:hover{
+	color: #c3e2c0;
+}
+
+/*-----------------
+	table company
+----------------------*/
+
+#h_tbl1,#h_tbl2,#h_tbl3,#h_tbl5,#h_tbl6,#h_tbl7{
+	font-weight: bold;
+	color: #282828;
+	/*background-color: #5b93c2;*/
+}
+
+#cont_tbl1{
+	font-size: 13px;
+	color:black;
+}
+
+.tbl1{
+	margin: auto;
+	width: auto;
+	border: 2px solid gray;
+}
+
+.tbl1 td{
+	/*padding: 5px;*/
+	border-bottom: 1px dotted gray;
+}
+
+.gtop{
+	margin: auto;
+	color: #045318;
+	font-weight: bold;
+}
+
+/*-----------------------
+	table business unit
+----------------------------*/
+
+#cont_tbl2{
+	font-size: 13px;
+	color:black;
+}
+
+.tbl2{
+	margin: auto;
+	width: auto;
+	border: 2px solid gray;
+}
+
+.tbl2 td{
+	/*padding: 5px;*/
+	border-bottom: 1px dotted gray;
+}
+
+.gtop{
+	margin: auto;
+	color: #045318;
+}
+
+/*-------------------
+	table department
+----------------------*/
+
+#cont_tbl3{
+	font-size: 12px;
+	color:black;
+}
+
+.tbl3{
+	margin: auto;
+	width: auto;
+	border: 2px solid gray;
+}
+
+.tbl3 td{
+	/*padding: 5px;*/
+	border-bottom: 1px dotted gray;
+}
+
+/*-----------------
+	table section
+----------------------*/
+
+#h_tbl4{
+	font-size: 13px;
+	color: #282828;
+	font-weight: bolder;
+}
+
+#cont_tbl4{
+	font-size: 11px;
+	color:black;
+}
+
+.tbl4{
+	margin: auto;
+	width: auto;
+	border: 2px solid gray;
+}
+
+.tbl4 td{
+	/*padding: 5px;*/
+	border-bottom: 1px dotted gray;
+}
+
+/*-----------------
+	table sub-section
+----------------------*/
+
+#cont_tbl5{
+	font-size: 12px;
+	color:black;
+}
+
+.tbl5{
+	margin: auto;
+	width: auto;
+	border: 2px solid gray;
+}
+
+.tbl5 td{
+	/*padding: 5px;*/
+	border-bottom: 1px dotted gray;
+}
+
+/*-----------------
+	table unit
+----------------------*/
+
+#cont_tbl6{
+	font-size: 13px;
+	color:black;
+}
+
+.tbl6{
+	margin: auto;
+	width: auto;
+	border: 2px solid gray;
+}
+
+.tbl6 td{
+	/*padding: 5px;*/
+	border-bottom: 1px dotted gray;
+}
+
+/*--------------------
+	table position
+----------------------*/
+
+#cont_tbl7{
+	font-size: 13px;
+	color:black;
+}
+
+.tbl7{
+	margin: auto;
+	width: auto;
+	border: 2px solid gray;
+}
+
+.tbl7 td{
+	/*padding: 5px;*/
+	border-bottom: 1px dotted gray;
+}
+
+#b_edit{
+	background-color: #0651b8;
+	border: 1px;
+	width: 25px;
+	height: 25px;
+	border-color: #000000;
+	border-radius: 3px;
+	background-image: url(../images/edit2.png);
+}
+
+#b_del{
+	background-color: #ca4e45;
+	border: 1px;
+	width: 25px;
+	height: 25px;
+	border-color: #000000;
+	border-radius: 3px;
+	background-image: url(../images/delete2.png);
+}
+
+/*----------------------
+		TABLE EDIT
+-------------------------*/
+
+#b_save{
+	color: #fff;
+	margin-top: 10px;
+	border: 1px;
+	width: 50px;
+	height: 25px;
+	background-color: #007dcc;
+}
+
+/*-----------------
+	   company
+--------------------*/
+
+#tbl_ecom{
+	margin: auto;
+	margin-top: 100px;
+	width: 400px;
+	height: 300px;
+	background: url(../images/bg_edit.png);
+	border: 1px solid #007dcc;
+}
+
+#tbl_ecom p{
+	font-size: 13px;
+	font-weight: bold;
+}
+
+#tc_edit{
+	margin: auto;
+	margin-top: 60px;
+	border: 1px solid #d4d7d4;
+}
+
+#tbl_ecom h4{
+	position: absolute;
+	margin-left: 90px;
+	margin-top: -50px;
+	/*border: 1px solid green;*/
+}
+
+/*------------------------
+		Business Unit
+------------------------------*/
+
+#tbl_ebu{
+	margin: auto;
+	margin-top: 100px;
+	width: 400px;
+	height: 380px;
+	background: url(../images/bg_edit.png);
+	border: 1px solid #007dcc;
+	/*display: none;*/
+}
+
+#tbl_ebu p{
+	font-size: 15px;
+	font-weight: bold;
+}
+
+#bu_inp{
+	width: 300px;
+}
+
+#tbu_edit{
+	margin: auto;
+	margin-top: 100px;
+	height: 250px;
+	border: 1px solid #d4d7d4;
+}
+
+#tbl_ebu h4{
+	position: absolute;
+	margin-left: 100px;
+	margin-top: -80px;
+	/*border: 1px solid green;*/
+}
+
+/*----------------------
+	Department
+-------------------------*/
+
+#tbl_edep{
+	margin: auto;
+	margin-top: 100px;
+	width: 500px;
+	height: 480px;
+	background: url(../images/bg_edit.png);
+	border: 1px solid #007dcc;
+}
+
+#td_edit{
+	margin: auto;
+	margin-top: 90px;
+	height: 330px;
+	border: 1px solid #d4d7d4;
+}
+
+#tbl_edep h4{
+	position: absolute;
+	margin-left: 140px;
+	margin-top: -60px;
+}
+
+#tbl_edep .ind_m{
+	margin-left: 40px;
+	margin-bottom: -20px;
+}
+
+#tbl_edep p{
+	margin-bottom: -60px;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+#tbl_edep #b_save{
+	color: #fff;
+	margin-top: 10px;
+	border: 1px;
+	width: 60px;
+	height: 30px;
+	background-color: #007dcc;
+}
+
+/*------------------------------
+			Section
+--------------------------------*/
+#tbl_esec{
+	margin: auto;
+	margin-top: 100px;
+	width: 500px;
+	height: 480px;
+	background: url(../images/bg_edit.png);
+	border: 1px solid #007dcc;
+}
+
+#ts_edit{
+	margin: auto;
+	margin-top: 90px;
+	height: 320px;
+	border: 1px solid #d4d7d4;
+}
+
+#tbl_esec .s_margin{
+	margin-left: 40px;
+	margin-bottom: -40px;
+}
+
+#tbl_esec p{
+	margin-bottom: -60px;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+#tbl_esec #b_save{
+	color: #fff;
+	margin-top: 10px;
+	border: 1px;
+	width: 60px;
+	height: 30px;
+	background-color: #007dcc;
+}
+
+#tbl_esec h4{
+	position: absolute;
+	margin-left: 140px;
+	margin-top: -70px;
+}
+
+/*------------------------------
+			Sub Section
+--------------------------------*/
+#tbl_essec{
+	margin: auto;
+	margin-top: 100px;
+	width: 500px;
+	height: 480px;
+	background: url(../images/bg_edit.png);
+	border: 1px solid #007dcc;
+}
+
+#tss_edit{
+	margin: auto;
+	margin-top: 90px;
+	height: 320px;
+	border: 1px solid #d4d7d4;
+}
+
+#tbl_essec .ss_margin{
+	margin-left: 40px;
+	margin-bottom: -40px;
+}
+
+#tbl_essec p{
+	margin-bottom: -60px;
+	font-weight: bold;
+	font-size: 14px;
+}
+
+#tbl_essec #b_save{
+	color: #fff;
+	margin-top: 10px;
+	border: 1px;
+	width: 60px;
+	height: 30px;
+	background-color: #007dcc;
+}
+
+#tbl_essec h4{
+	position: absolute;
+	margin-left: 140px;
+	margin-top: -70px;
+}
+
+/*------------------------------
+			Unit
+--------------------------------*/
+#tbl_u{
+	margin: auto;
+	margin-top: 100px;
+	width: 500px;
+	height: 480px;
+	background: url(../images/bg_edit.png);
+	border: 1px solid #007dcc;
+}
+
+#tu_edit{
+	margin: auto;
+	margin-top: 90px;
+	height: 350px;
+	border: 1px solid #d4d7d4;
+}
+
+#tbl_u .u_margin{
+	margin-left: 40px;
+	margin-bottom: -40px;
+}
+
+#tbl_u p{
+	margin-bottom: -60px;
+	font-weight: bold;
+	font-size: 14px;
+}
+
+#tbl_u #b_save{
+	color: #fff;
+	margin-top: 10px;
+	border: 1px;
+	width: 60px;
+	height: 30px;
+	background-color: #007dcc;
+}
+
+#tbl_u h4{
+	position: absolute;
+	margin-left: 160px;
+	margin-top: -70px;
+}
+
+/*------------------------------
+			Position
+--------------------------------*/
+#tbl_p{
+	margin: auto;
+	margin-top: 100px;
+	width: 500px;
+	height: 480px;
+	background: url(../images/bg_edit.png);
+	border: 1px solid #007dcc;
+}
+
+#tp_edit{
+	margin: auto;
+	margin-top: 90px;
+	height: 350px;
+	border: 1px solid #d4d7d4;
+}
+
+#tbl_p .p_margin{
+	margin-left: 40px;
+	margin-bottom: -40px;
+}
+
+#tbl_p p{
+	margin-bottom: -60px;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+#tbl_p #b_save{
+	color: #fff;
+	margin-top: 10px;
+	border: 1px;
+	width: 60px;
+	height: 30px;
+	background-color: #007dcc;
+}
+
+#tbl_p h4{
+	position: absolute;
+	margin-left: 160px;
+	margin-top: -70px;
+}
+
+/*-----------------------------
+		TABLE ADD
+--------------------------------*/
+span{
+	color: red;
+}
+/*------------------
+	COMPANY
+--------------------*/
+
+#comp_tbl{
+	margin: auto;
+	margin-top: 100px;
+	width: 300px;
+	height: 300px;
+	background: url(../images/bg_edit.png);
+	border: 1px solid #2e7d50;
+}
+#tbla_comp{
+	margin: auto;
+	margin-top: 65px;
+	height: 200px;
+	border: 1px solid #d4d7d4;
+}
+
+#comp_tbl h4{
+	position: absolute;
+	margin-top: -45px;
+	margin-left: 40px;
+}
+
+#comp_tbl p{
+	font-size: 13px;
+	font-weight: bold;
+	margin-bottom: -10px;
+}
+
+#comp_tbl #b_add{
+	width: 40px;
+	height: 20px;
+	color: white;
+	border-radius: 2px;
+	background-color: #2e7d50;
+	border: 1px;
+}
+
+/*-----------------------
+		BUSINESS UNIT
+--------------------------*/
+
+#bu_tbl{
+	margin: auto;
+	margin-top: 100px;
+	width: 300px;
+	height: 300px;
+	background: url(../images/bg_edit.png);
+	border: 1px solid #2e7d50;
+}
+
+#tbla_bu{
+	margin: auto;
+	margin-top: 65px;
+	height: 200px;
+	border: 1px solid #d4d7d4;
+}
+
+#bu_tbl h4{
+	position: absolute;
+	margin-top: -45px;
+	margin-left: 80px;
+}
+
+#bu_tbl p{
+	font-size: 13px;
+	font-weight: bold;
+	margin-bottom: -15px;
+}
+
+#bu_tbl #b_add{
+	width: 40px;
+	height: 20px;
+	color: white;
+	background-color: #2e7d50;
+	border: 1px;
+}
+
+/*------------------------------
+			DEPARTMENT
+--------------------------------*/
+#dep_tbl{
+	margin: auto;
+	margin-top: 100px;
+	width: 500px;
+	height: 450px;
+	background: url(../images/bg_edit.png);
+	border: 1px solid #2e7d50;
+}
+
+#tbla_dep{
+	margin: auto;
+	margin-top: 90px;
+	height: 300px;
+	border: 1px solid #d4d7d4;
+}
+
+#dep_tbl h4{
+	position: absolute;
+	margin-top: -45px;
+	margin-left: 140px;
+}
+
+#dep_tbl p{
+	font-size: 14px;
+	color: #5e5e5e;
+	font-weight: bold;
+	margin-bottom: -25px;
+}
+
+#dep_tbl .dep_margin{
+	margin-left: 15px;
+}
+
+#dep_tbl #b_add{
+	font-size: 13px;
+	width: 50px;
+	height: 25px;
+	color: white;
+	background-color: #2e7d50;
+	border: 1px;
+}
+
+.err{
+	margin: auto;
+	margin-top: 10px;
+	margin-left: 608px;
+	color: red;
+	font-weight: bold;
+}
+/*------------------------------
+			SECTION
+--------------------------------*/
+#sect_tbl{
+	margin: auto;
+	margin-top: 100px;
+	width: 500px;
+	height: 450px;
+	background: url(../images/bg_edit.png);
+	border: 1px solid #2e7d50;
+}
+
+#tbla_sect{
+	margin: auto;
+	margin-top: 90px;
+	height: 300px;
+	border: 1px solid #d4d7d4;
+}
+
+#sect_tbl h4{
+	position: absolute;
+	margin-top: -45px;
+	margin-left: 140px;
+}
+
+#sect_tbl p{
+	font-size: 14px;
+	color: #5e5e5e;
+	font-weight: bold;
+	margin-bottom: -25px;
+}
+
+#sect_tbl .sect_margin{
+	margin-left: 15px;
+}
+
+#sect_tbl #b_add{
+	font-size: 13px;
+	width: 50px;
+	height: 25px;
+	color: white;
+	background-color: #2e7d50;
+	border: 1px;
+}
+
+/*------------------------------
+			SUB-SECTION
+--------------------------------*/
+#ssect_tbl{
+	margin: auto;
+	margin-top: 100px;
+	width: 500px;
+	height: 450px;
+	background: url(../images/bg_edit.png);
+	border: 1px solid #2e7d50;
+}
+
+#tbla_ssect{
+	margin: auto;
+	margin-top: 90px;
+	height: 300px;
+	border: 1px solid #d4d7d4;
+}
+
+#ssect_tbl h4{
+	position: absolute;
+	margin-top: -45px;
+	margin-left: 140px;
+}
+
+#ssect_tbl p{
+	font-size: 14px;
+	color: #5e5e5e;
+	font-weight: bold;
+	margin-bottom: -25px;
+}
+
+#ssect_tbl .ssect_margin{
+	margin-left: 20px;
+	/*border: 1px dashed black;*/
+}
+
+#ssect_tbl #b_add{
+	font-size: 13px;
+	width: 50px;
+	height: 25px;
+	color: white;
+	background-color: #2e7d50;
+	border: 1px;
+}
+
+/*------------------------------
+			unit
+--------------------------------*/
+#unt_tbl{
+	margin: auto;
+	margin-top: 100px;
+	width: 500px;
+	height: 450px;
+	background: url(../images/bg_edit.png);
+	border: 1px solid #2e7d50;
+}
+
+#tbla_unt{
+	margin: auto;
+	margin-top: 90px;
+	height: 330px;
+	border: 1px solid #d4d7d4;
+}
+
+#unt_tbl h4{
+	position: absolute;
+	margin-top: -45px;
+	margin-left: 140px;
+}
+
+#unt_tbl p{
+	font-size: 14px;
+	color: #5e5e5e;
+	font-weight: bold;
+	margin-bottom: -25px;
+}
+
+#unt_tbl .unt_margin{
+	margin-left: 20px;
+	/*border: 1px dashed black;*/
+}
+
+#unt_tbl #b_add{
+	font-size: 13px;
+	width: 50px;
+	height: 25px;
+	color: white;
+	background-color: #2e7d50;
+	border: 1px;
+}
+
+/*------------------------------
+			position
+--------------------------------*/
+#pos_tbl{
+	margin: auto;
+	margin-top: 100px;
+	width: 500px;
+	height: 450px;
+	background: url(../images/bg_edit.png);
+	border: 1px solid #2e7d50;
+}
+
+#tbla_pos{
+	margin: auto;
+	margin-top: 90px;
+	height: 330px;
+	border: 1px solid #d4d7d4;
+}
+
+#pos_tbl h4{
+	position: absolute;
+	margin-top: -45px;
+	margin-left: 160px;
+}
+
+#pos_tbl p{
+	font-size: 14px;
+	color: #5e5e5e;
+	font-weight: bold;
+	margin-bottom: -25px;
+}
+
+#pos_tbl .pos_margin{
+	margin-left: 20px;
+	/*border: 1px dashed black;*/
+}
+
+#pos_tbl #b_add{
+	font-size: 13px;
+	width: 50px;
+	height: 25px;
+	color: white;
+	background-color: #2e7d50;
+	border: 1px;
+}
+
+/*---------------------------
+		CONTRACT HEADER
+-----------------------------*/
+
+.tbl_contract{
+	border: 2px solid #6d876d;
+	border-collapse: collapse;
+	margin: auto;
+	width: auto;
+}
+
+.tbl_contract th{
+	border: 1px solid #6d876d;
+	padding: 3px;
+	vertical-align: top;
+	background-color: #81a882;
+}
+
+.tbl_contract td{
+	border: 1px solid #6d876d;
+	padding: 3px;
+	vertical-align: top;
+}
+
+.tbl_contract .c_no{
+	text-align: center;
+	color:black;
+}
+
+#be_cont{
+	margin: auto;
+	text-align: center;
+	color: white;
+	width: 47px;
+	background-color: #0651b8;
+	border: 1px;
+	height: 20px;
+	border-color: #636663;
+	/*border-radius: 3px;*/
+}
+
+/*--------------------------
+	contract add form
+-----------------------------*/
+
+#cont_add{
+	margin: auto;
+	margin-top: 50px;
+	width: 430px;
+	height: 400px;
+	border: 1px solid red;
+	border-radius: 5px;
+	border-color: rgba(32,137,31,2);
+}
+
+.ta_cont{
+	height: 270px;
+	margin: auto;
+	margin-top: 30px;
+	border-radius: 3px;
+	/*border: 1px solid gray;*/
+	/*border-color: rgba(1,1,1,0.3);*/
+}
+
+#cont_add .ta_cont .cc_num{
+	height: 30px;
+	width: 120px;
+	padding-left: 5px;
+	padding-right: 3px;
+	font-size: 18px;
+/*	border-radius: 3px;
+	border-color: #929292;
+	border-top-color: #929292; 
+	border-width: 1px;
+	border-color: rgba(1,2,2,0.5);*/
+}
+
+#cont_add .ta_cont .adrese,.comp,.adres{
+	height: 30px;
+	width: 350px;
+	padding-left: 5px;
+	padding-right: 3px;
+	font-size: 18px;
+	/*border-radius: 3px;
+	border-color: #929292;
+	border-top-color: #929292; 
+	border-width: 1px;
+	border-color: rgba(1,2,2,0.5);*/
+}
+
+#bc_add{
+	width: 70px;
+	height: 30px;
+	border: 1px;
+	color: white;
+	background-color: #208947;
+}
+
+#cont_add h4{
+	/*float: right;*/
+	margin: auto;
+	width: 270px;
+	height: 30px;
+	margin-right:80px;
+	margin-top: 30px;
+	/*border: 1px dashed blue;*/
+}
+
+/*-------------------------
+		CONTRACT EDIT
+---------------------------*/
+#cont_edit .te_cont p{
+	padding-top: 3px;
+}
+
+#cont_edit{
+	margin: auto;
+	margin-top: 50px;
+	width: 430px;
+	height: 400px;
+	border: 1px solid red;
+	border-radius: 5px;
+	border-color: rgba(30,108,205,2);
+}
+
+#cont_edit .te_cont .cc_num{
+	height: 30px;
+	width: 120px;
+	padding-left: 5px;
+	padding-right: 3px;
+	font-size: 18px;
+	/*border-color: #929292;
+	border-top-color: #929292; 
+	border-width: 1px;
+	border-color: rgba(1,2,2,0.5);*/
+}
+
+#cont_edit .te_cont .adrese,.comp,.adres{
+	height: 30px;
+	width: 350px;
+	padding-left: 5px;
+	padding-right: 3px;
+	font-size: 18px;
+	/*border-radius: 3px;*/
+	/*border-color: #929292;
+	border-top-color: #929292; 
+	border-width: 1px;
+	border-color: rgba(1,2,2,0.5);*/
+}
+
+.te_cont{
+	height: 270px;
+	margin: auto;
+	margin-top: 30px;
+	border-radius: 3px;
+	/*border: 1px solid gray;*/
+	/*border-color: rgba(1,1,1,0.3);*/
+}
+
+#bc_edit{
+	width: 70px;
+	height: 30px;
+	border: 1px;
+	margin-top: 20px;
+	color: white;
+	background-color: #1e6ccd;
+}
+
+#cont_edit h4{
+	/*float: right;*/
+	margin: auto;
+	width: 270px;
+	height: 30px;
+	margin-right:80px;
+	margin-top: 30px;
+	/*border: 1px dashed blue;*/
+}
+
+.tbl_contract th{
+	color: black;
+}
+
+#cont_edit{
+	font-weight: bold;
+}
+
+#header .h1 #active{
+	background: url(../images/hover.gif);
+	
+}

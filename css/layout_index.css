@@ -1,0 +1,183 @@
+@charset "utf-8";
+
+body { 
+
+	padding: 0; 
+	margin: 0; 
+	background: url(../images/bg.jpg) no-repeat center center fixed;
+	background-size: cover;
+
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+
+	font-family: "Segoe UI";
+}
+
+#title{
+
+	position: relative;
+	top: 110px;
+	width: 600px;
+	height: 90px;
+	margin: 0 auto;
+}
+
+#err{
+	color:red;
+	font-size:11px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#content{
+	width: 800px;
+	height: 250px;
+	position: relative;
+	top: 120px;
+	margin: 0 auto;
+}
+
+#tableLinks{
+	margin: 0 auto;
+	width: 350px;
+}
+
+#tableLinks .valueTr td{
+	height: 40px;
+	background: rgba(255,255,255, 0.5);
+	padding-left: 15px;
+	border-left: 5px solid green;
+}
+
+#tableLinks .valueTr td:hover{
+	transition: all 0.5s ease;
+	background-color: #dedede;
+	cursor: pointer;
+}
+
+#tableLinks .spaceTr{
+	height: 5px;
+}
+
+.arrow{
+	float: right;
+	position: relative;
+	top: 7px;
+	left: -5px;
+	opacity: 0.8;
+}
+
+#footer{
+	width: 400px;
+	position: relative;
+	top: 150px;
+	left: 44%;
+	font-size: 10px;
+	color: white;
+	opacity: 0.8;
+}
+
+#loginPart{
+	width: 100%;
+	height: 290px;
+	background: white;
+	display: none;
+}
+
+#loginPart1{
+	margin-left: auto;
+	margin-right: auto;
+	width: 36%;
+	height: 270px;
+	background: white;
+	
+}
+
+.loginLabel{
+	font-size: 13px;
+	position: relative;
+	top: 5px;
+	left: 20px;
+	color: #7b7b7b;	
+}
+
+.closeButton{
+	float: right;
+	opacity: 0.7;
+	margin-top: 5px;
+	margin-right: 10px
+}
+
+.closeButton:hover{
+	cursor: pointer;
+}
+
+.left{
+	float: left;
+	width: 250px;
+	height: 230px;
+	margin-left: 5px;
+}
+
+.right{
+	float: right;
+	width: 500px;
+	height: 220px;
+	padding-top: 5px;
+	padding-right: 5px;
+	font-size: 12px;
+	overflow: hidden;
+	/*overflow-y: scroll;*/
+	position: relative;
+	top: -3px;
+	left: -20px;
+}
+
+#userName, #passWord{
+	width: 200px;
+	height: 30px;
+	background-color: #f9f9f9;
+	border: 1px solid rgba(0,0,0,0.2);
+	padding-left: 8px;
+	outline-color: green;
+}
+
+#login{
+	width: 200px;
+	height: 30px;
+	background-color: #169409;
+	color: white;
+	border: 0;
+}
+
+#LoginTable{
+	position: relative;
+	top: 5px;
+	left: 6%;
+}
+
+#LoginTable1{
+	/*position: relative;
+	top: 15px;
+	left: 6%;*/
+
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+#profPic{
+	position: relative;
+	top: 5px;
+	left: 15%;
+}
+
+.labelMF{
+	position: relative;
+	top: -5px;
+	color: green;
+}
